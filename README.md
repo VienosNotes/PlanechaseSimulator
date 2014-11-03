@@ -1,4 +1,4 @@
 PlanechaseSimulator
 ===================
 
-Simulator for Planechase
+sample page: http://vienosnotes.github.io/PlanechaseSimulator
