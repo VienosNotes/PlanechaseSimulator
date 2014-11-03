@@ -30,7 +30,7 @@ var planes = [
    "Sokenzan",
    "Stronghold Furnace",
    "Tazeem",
-   "The è©°ther Flues",
+   "The Aether Flues",
    "The Dark Barony",
    "The Eon Fog",
    "The Fourth Sphere",
@@ -97,4 +97,3 @@ function changePlane() {
         $(this).addClass(imgClass);
     });        
 }
-
