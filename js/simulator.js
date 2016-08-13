@@ -95,5 +95,14 @@ function changePlane() {
     $('.img-container').find('img').each(function(){
         var imgClass = (this.width/this.height > 1) ? 'wide' : 'tall';
         $(this).addClass(imgClass);
-    });        
+    });
 }
+
+$("body").on('load', function () {
+  var $pimg = $('#planeimg');
+  $pimg.height(screen.innerHeight * 0.8);
+
+  var $next = $('#next-button');
+  $next.height(screen.innerHeight / 3);
+  $next.top(screen.innerHeight / 3);
+  });
